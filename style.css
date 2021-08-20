@@ -1,0 +1,104 @@
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+#logo{
+	width: 15%;
+	position: absolute;
+}
+#signin{
+	width: 7%;
+}
+#menu{
+	width: 7%;
+}
+body{
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	/*background-color: #ff0000;*/
+}
+h1{
+	font-size: 40px;
+	position: absolute;
+	transform: translate(10%,950%);
+}
+h2{
+	font-size: 30px;
+	position: absolute;
+	/*color: green;*/
+}
+/*#squid{
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 10px;
+	border-top: 2px solid yellow;
+	border-right: 5px dashed red;
+	border-bottom: 1px dotted blueviolet;
+	border-left: 2px dotted green;
+}*/
+#squid{
+	height: 250px;
+	width: 600px;
+}
+#popcat{
+	height: 245px;
+	width: 245px;
+}
+#villager{
+	height: 245px;
+	width: 245px;
+	transform: translate(140%,-115%);
+}
+#jorg{
+	height: 300px;
+	width: 550px;
+	transform: translate(5%,-100%);
+}
+#next{
+	height: 120px;
+	width: 120px;
+	object-fit: cover;
+	transform: translate(0%,-200%);
+}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#topbanner{
+	display: flex;
+}
+/*.bannerthings{
+	position: absolute;
+}
+#logo, #topbanner > div, h1, #topbanner > h2{
+	position: absolute;
+}*/
+
+#topbanner >div {
+	transform: translate(-25%, 4%);
+}
+#real{
+	transform: translate(25%,1350%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 1px;
+}
+#id{
+	padding: 20px;
+	transform: translate(350%,10%);
+}
+#nexttest{
+	transform: translate(0%,-200%);
+}
+#jorg{
+	transform: translate(0%,-70%);
+}
+#jorgtext{
+	transform: translate(0%,-100%);
+}
